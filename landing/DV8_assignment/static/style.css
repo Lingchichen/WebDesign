@@ -1,0 +1,543 @@
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Candal);
+
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.navbar-inverse{
+  border: none;
+}
+#select {
+  color:#CE0058;
+
+}
+#myNavbar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+
+}
+#myNavbar .search-container {
+  float: right;
+}
+#myNavbar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+#myNavbar .search-container button:hover {
+  background: #ccc;
+}
+
+#myNavbar{
+  background-color: transparent;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+  &:hover {
+        color: #C57ED3;
+        border: 1px solid #C57ED3;
+     }
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.slide-show{
+  width:1352px;
+  height: 500px;
+}
+#container{
+  padding-left: 0;
+  padding-right: 0;
+}
+.btn:active:hover{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.pioneer {
+   left: 38%;
+   position: relative;
+   text-align: center;
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 100px;
+  color: #EB219B;
+  -webkit-text-fill-color: rgba(253, 90, 250, 1);
+  text-shadow: -2px -2px 0 #FFBAF2;
+  -webkit-filter: drop-shadow(3px 3px 1px #441F62);
+  -webkit-transform: skew(-5deg,-5deg);
+  font-weight: normal;
+  z-index: 2;
+  margin: auto;
+}
+#multi-adv{
+  font-size: 2.5vw;
+  color: #CE0058;
+  line-height: 0;
+  text-align: center;
+  font-family:Arvo;
+  font-weight:700;
+  font-style:normal;
+  letter-spacing:2px;
+  margin-top: 25px;
+}
+#parg{
+  font-size: 30px;;
+  color: #6b288a;
+  line-height: 44px;
+  text-align: center;
+  font-family:Lato;
+  font-weight:400;
+  font-style:normal;
+}
+.carousel-caption p{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -150%);
+   font-family: 'Abel';
+   color: white;
+   font-size: 475%;
+   text-shadow: none;
+   line-height: 1.3;
+   font-style: normal;
+   text-decoration: none;
+   text-align: center;
+   letter-spacing: normal;
+   word-spacing: normal;
+   text-transform: none;
+   font-weight: 300;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+
+}
+
+#myBtn:hover {
+  background-color: #CE0058;
+}
+.out-para-container{
+  height: 600px;
+  width: 50%;
+  display: inline-block;
+}
+.para-container{
+  padding: 50px;
+  background-color: #353535;
+  text-align: center;
+  color: #D7D7D7;
+  display: inline-block;
+
+}
+.para-container p{
+  max-width: 560px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.para-container h6{
+  font-size: 24px;
+  text-align: center;
+  font-family:ABeeZee;
+  font-weight:400;
+  margin-top:40px;
+  margin-bottom: 25px;
+}
+.like {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin:0 auto;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/349115/like_animation.png) 0 0 no-repeat;
+    background-size: 3000%;
+    animation: like-gif steps(28) 1s infinite both;
+}
+@keyframes like-gif {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+.read-more a{
+  margin-top: 40px;
+
+  width: 100px;
+  border: solid;
+  border-color:  #CE0058;
+  color: #CE0058;
+  display: inline-block;
+  vertical-align: top;
+
+}
+.read-more a:hover{
+  background-color:  #CE0058;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+
+
+}
+#gif-container{
+  position:absolute;
+  height: 630px;
+  width:50%;
+  background-color: #FFF05E;
+}
+#gif-container img{
+  padding: 50px;
+  height: 630px;
+  display:inline-block;
+}
+.icon-box{
+  text-align: center;
+  margin-top: 29px;
+  height:160px;
+  width:100%;
+  background-color:  #CE0058;
+}
+.icon-container{
+  height: 200px;
+  background-color:  #CE0058;
+}
+.clock-icon{
+  margin-top:50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  color:black;
+  display:inline-block;
+}
+.user-icon{
+  margin-top:50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  color:black;
+  display:inline-block;
+}
+.users-icon{
+  margin-top:50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  color:black;
+  display:inline-block;
+}
+.desktop-icon{
+  margin-top:50px;
+  margin-bottom: 50px;
+  color:black;
+  display:inline-block;
+}
+h7
+{
+  font-family: Montserrat,Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-bottom-width: 1px;
+}
+h8{
+  font-family: Montserrat,Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-bottom-width: 1px;
+}
+#service{
+  text-align: center;
+  /* The image used */
+  background-image: url("bg.jpg");
+
+  /* Half height */
+  height: 400px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.service-style{
+  position: relative;
+  text-align: center;
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 100px;
+  color: #EB219B;
+  -webkit-text-fill-color: rgba(253, 90, 250, 1);
+  text-shadow: -2px -2px 0 #FFBAF2;
+  -webkit-filter: drop-shadow(3px 3px 1px #441F62);
+  -webkit-transform: skew(-5deg,-5deg);
+  font-weight: normal;
+  z-index: 1;
+  margin: auto;
+}
+.service-style-2{
+  position: relative;
+  text-align: center;
+  font-family: 'Coiny', cursive;
+  font-size: 100px;
+  color: #CE0058;
+  text-shadow: -2px -2px 0 #FFBAF2;
+  -webkit-filter: drop-shadow(3px 3px 1px #441F62);
+  -webkit-transform: skew(-5deg,-5deg);
+  font-weight: normal;
+  z-index: 2;
+  margin: auto;
+}
+.service-container{
+  margin-top: 600px;
+  height: 500px;
+
+}
+.service-innerbox-1{
+  display:inline-block;
+  height: 400px;
+  width:24%;
+  background-color: #FFF05E;
+}
+.service-innerbox-2{
+  display:inline-block;
+  height: 400px;
+  width:25%;
+  background-color: #CE0058;
+}
+.service-innerbox-3{
+  display:inline-block;
+  height: 400px;
+  width:24%;
+  background-color: black;
+  color:white;
+}
+.service-innerbox-4{
+  display:inline-block;
+  height: 400px;
+  width:25%;
+  background-color: #6B2C89;
+  color:#FFF05E;
+}
+.service-container i{
+  margin-top: 50px;
+
+}
+.clients-container{
+  height:600px;
+  background-color: black;
+}
+.circle img{
+  margin-top: 150px;
+  height:400px;
+  width:25%;
+  display: inline-block;
+  float: left;
+}
+.circle h8{
+  display: inline-block;
+  margin-top: 150px;
+  max-width: 800px;
+  height:300px;
+  color:white;
+  font-size:48px;
+  text-align: left;
+}
+.team-container{
+  height: 1000px;
+  margin-top: 100px;
+  margin-left: 140px;
+}
+.creativity{
+  /* position: relative; */
+  /* text-align: center; */
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 70px;
+  color: #CE0058;
+  font-weight: normal;
+  margin-bottom: 20px;
+
+}
+.team-container p{
+  font-family: 'Coiny', cursive;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: left;
+  font-weight: 300;
+  font-style: normal;
+  max-width: 495px;
+}
+.contact-container {
+    background-color: #444442;
+    padding-top: 85px;
+    text-align: center;
+    text-decoration: none;
+    height:700px;
+}
+
+.contact-container h9 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 72px;
+    color: #CE0058;
+    text-align: center;
+}
+
+.contact-container h10 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #CE0058;
+    line-height: 1.5;
+
+}
+
+/* ///// inputs /////*/
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px){
+    .styled-input {
+        width:100%;
+    }
+}
+
+.styled-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide {
+    width: 650px;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+    float: right;
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #4b8cfb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+              0 2px 10px 0 rgba(0,0,0,0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+              0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+@media (max-width: 768px) {
+    .submit-btn {
+        width:100%;
+        float: none;
+        text-align:center;
+    }
+}
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
